@@ -28,7 +28,10 @@
   },
   "dependencies": {
     "@11ty/eleventy-navigation": "^0.3.3",
+    "async": "^3.2.3",
+    "browser-sync": "^2.27.9",
     "clean-css": "^4.2.1",
+    "eleventy": "^1.0.6",
     "html-minifier": "^4.0.0",
     "npm": "^8.9.0",
     "uglify-es": "^3.3.9"
