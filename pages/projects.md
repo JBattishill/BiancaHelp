@@ -1,6 +1,6 @@
 ---
 layout: layouts/projects.njk
-title: Projects
+title: New Foods
 date: 2021-01-01
 permalink: /projects/index.html
 metaDescription: A sample Projects page

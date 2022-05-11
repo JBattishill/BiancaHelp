@@ -2,7 +2,7 @@
 title: Gluten Free Pizza
 date: 2022-05-10
 author: Jarryd Eastwood
-summary: A simple recipie for a great GF Pizza base!
+summary: A simple recipe for a great GF Pizza base!
 tags:
   - Pizza
   - Italian

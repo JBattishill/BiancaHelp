@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.njk
-title: Articles
+title: Recipes
 date: 2017-01-01
 permalink: /blog/index.html
 metaDescription: A sample Blog page listing various posts and authors.
