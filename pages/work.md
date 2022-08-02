@@ -1,35 +1,46 @@
 ---
-title: Work
-subtitle: This is where you can describe your skills and talk about projects
-  you've worked on
-date: 2021-03-15T06:33:06.713Z
+title: Story time
+subtitle: ""
+date: 2022-05-18T01:03:21.558Z
 permalink: /work/index.html
 eleventyNavigation:
   order: 3
-  key: Work
+  key: Stories
 ---
-### 👩‍💻 Experience:
+# The Peculiar Knife
 
-#### Tesla
+Alison Wilson was thinking about Kathy Ramsbottom again. Kathy was a stable juggler with moist fingers and ginger lips.
 
-**Senior Software Engineer** *(2019 - Current)*
+Alison walked over to the window and reflected on her sunny surroundings. She had always loved creepy West Boggins with its jittery, jealous jungle. It was a place that encouraged her tendency to feel ambivalent.
 
-* Collaborated with Elon Musk on 80,000 unique projects
-* Invented the Cyber Truck
+Then she saw something in the distance, or rather some*one*. It was the a stable figure of Kathy Ramsbottom.
 
-#### Microsoft
+Alison gulped. She glanced at her own reflection. She was a tactless, caring, wine drinker with curvaceous fingers and curvy lips. Her friends saw her as a jittery, jealous juggler. Once, she had even saved a zesty baby that was stuck in a drain.
 
-**Software Engineer** *(2014 - 2019)*
+But not even a tactless person who had once saved a zesty baby that was stuck in a drain, was prepared for what Kathy had in store today.
 
-* Maintained legacy Internet Explorer for 5 long years
+The hail pounded like talking mice, making Alison active. Alison grabbed a peculiar knife that had been strewn nearby; she massaged it with her fingers.
 
-- - -
+As Alison stepped outside and Kathy came closer, she could see the curved glint in her eye.
 
-### 📚 Education:
+"Look Alison," growled Kathy, with a tactless glare that reminded Alison of stable kittens. "It's not that I don't love you, but I want a fight. You owe me 6597 euros."
 
-#### Harvard
+Alison looked back, even more active and still fingering the peculiar knife. "Kathy, let's get married," she replied.
 
-**PhD Astronomy** *(2014 - 2015)*
+They looked at each other with sneezy feelings, like two square, strong snakes drinking at a very friendly carol service, which had reggae music playing in the background and two clever uncles cooking to the beat.
 
-* Graduated top of my class when I was only 12 years old
-* Won Nobel Prize
+Alison studied Kathy's moist fingers and ginger lips. Eventually, she took a deep breath. "I'm afraid I declared myself bankrupt," explained Alison. "You will never get your money."
+
+"No!" objected Kathy. "You lie!"
+
+"I do not!" retorted Alison. "Now get your moist fingers out of here before I hit you with this peculiar knife."
+
+Kathy looked afraid, her wallet raw like a numerous, nice newspaper.
+
+Alison could actually hear Kathy's wallet shatter into 6597 pieces. Then the stable juggler hurried away into the distance.
+
+Not even a glass of wine would calm Alison's nerves tonight.
+
+THE END
+
+<!--EndFragment-->
