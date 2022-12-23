@@ -6,6 +6,9 @@ summary: A simple recipe for a great gluten free Pizza base!
 tags:
   - Pizza
   - Italian
+  - newTag
+  - thisTag
+  - anotherTag
 ---
 Pizza Pizza Pizza
 
