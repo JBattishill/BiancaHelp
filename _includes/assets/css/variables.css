@@ -17,12 +17,11 @@
   --color-danger: #c44569;
 
   /* Typography */
-  --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-  /* --font-family-heading: "Avanta Garde"; */
-
+  --font-family-base: "azo-sans-web", sans-serif;
+  --font-family-heading: "omnes-pro", sans-serif; 
+ 
   /* Sizes */
-  --site-width: 850px;
+  --site-width: 80vw;
 
   /* Other */
   --border-radius: 12px;

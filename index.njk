@@ -6,11 +6,24 @@ section: home
 	<div class="home-page__bg-square"></div>
 
   <div class="hero">
-    <div class="hero__col">
-      <h1 class="hero__title gradient-text">{{ home.title }}</h1>
+    <div class="hero__col hero_container">
+      <h1 class="hero__title gradient-text">Choose </h1>
+      <span class="content__container">
+        <ul class="hero__title content__container__list">
+          <h1 class="hero__title gradient-text content__container__list__item xl:pl-3">Nourish</h1>
+          <h1 class="hero__title gradient-text content__container__list__item xl:pl-3">Gluten-Free<h1>
+          <h1 class="hero__title gradient-text content__container__list__item xl:pl-3">Vegetarian<h1>
+          <h1 class="hero__title gradient-text content__container__list__item xl:pl-3">Low Iodine<h1>
+          <h1 class="hero__title gradient-text content__container__list__item xl:pl-3">IBS Friendly<h1>            
+          <h1 class="hero__title gradient-text content__container__list__item xl:pl-3">Paelo<h1>  
+          <h1 class="hero__title gradient-text content__container__list__item xl:pl-3">Nourish<h1>
+        </ul>
+      </span>
+
+      {# <h1 class="hero__title gradient-text">{{ home.title }}</h1>
       {% if home.subtitle %}
         <h2 class="hero__subtitle">{{ home.subtitle }}</h2>
-      {% endif %}
+      {% endif %} #}
     </div>
     <div class="hero__col">
       <img
@@ -24,7 +37,7 @@ section: home
   </div>
 
   <hr>
-  <h2>Projects</h2>
+  <h2>Recipes</h2>
   {% set projectlist = collections.project %}
   {% include "components/projectlist.njk" %}
 
