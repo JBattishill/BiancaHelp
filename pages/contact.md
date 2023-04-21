@@ -12,7 +12,7 @@ eleventyNavigation:
 ---
 If you want to:
 
-*  Ask me to find a way to make something healthier
+* Ask me to find a way to make something healthier
 * Ask me to find a way to make something tastier
 * Ask me to find a way to make something simpler
 * Tell me what you think about how I am doing things*

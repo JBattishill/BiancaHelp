@@ -75,7 +75,11 @@
 }
 
 .hero__subtitle {
+  font-family: "omnes-pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   margin-top: 0;
+  color: #EFA9B6;
 }
 
 @media (min-width: 1024px) {

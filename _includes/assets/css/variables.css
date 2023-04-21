@@ -1,25 +1,25 @@
 :root {
   /* Brand Colors */
   --color-primary: #01295F;
-  --color-secondary: #EFA9B6;
+  --color-secondary: #dc9aa6;
 
   /* Background Colors */
-  --color-bg: #FFFAEB  ;
-  --color-bg-secondary: #F9DCE1;
-  --color-bg-accent: #fFC933;
+  --color-bg: #596275;
+  --color-bg-secondary: #63cdda;
+  --color-bg-accent: #f6ff00;
 
   /* Text and Border Colors */
-  --color-text: #454545;
+  --color-text: #ffffff;
   --color-text-alt: #ffffff;
-  --color-border: rgba(0, 0, 0, 0.06);
+  --color-border: rgba(255, 255, 255, 0.06);
 
   /* Status Colors */
-  --color-danger: #e03e3e;
+  --color-danger: #c44569;
 
   /* Typography */
   --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-  --font-family-heading: var(--font-family-base);
+  /* --font-family-heading: "Avanta Garde"; */
 
   /* Sizes */
   --site-width: 850px;

@@ -18,7 +18,10 @@
 }
 
 .gradient-text {
-  background: linear-gradient(120deg, #9f56f3, #EC6EAD 40%);
+  font-family: "omnes-pro", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  background: linear-gradient(120deg, #71b280, #abc4ff 40%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
