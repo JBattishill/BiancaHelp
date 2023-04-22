@@ -1,0 +1,12 @@
+---
+permalink: /index.json
+---
+[
+{% for recipe in collections.recipes %}
+{
+   "title":"{{recipe.data.title}}",
+   "url":"{{recipe.url}}",
+   "content":"{% excerpt recipe %}"
+} {% if forloop.last == false %},{% endif %}
+{% endfor %} 
+]

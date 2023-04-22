@@ -36,7 +36,36 @@ section: home
     </div>
   </div>
 
+<h2>Testing for Recipe Search</h2>
+<ul>
+{% for recipe in collections.recipes %} 
+  <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+{% endfor %}
+</ul>
+
+<div class="search-container">
+    <form action="work">
+      <input type="search" placeholder="Search.." name="work">
+      <button type="submit"><i class="btnSearch">Search</i></button>
+    </form>
+</div>
+
+{# <div>
+{% if results %}
+<h3>Search Results</h3>
+<ul>
+  <li class="result-list">
+    {%- if search != "recipes" -%}
+    {% for result in results %}
+    {% set resultUrl %}/recipes/{{ tag }}/{% endset %}
+      <a class="tag" href="{{ resultUrl | url }}" rel="recipe">{{ recipe }}</a>
+      {%- endif -%}
+    {% endfor %}
+  </li>
+{% endif %}
+</div> #}
   <hr>
+
   <h2>Recipes</h2>
   {% set projectlist = collections.project %}
   {% include "components/projectlist.njk" %}

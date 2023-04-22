@@ -1,25 +1,14 @@
 {
-  "name": "fernfolio-11ty-template",
-  "version": "1.0.0",
-  "description": "The super simple portfolio template built with Eleventy and Netlify CMS",
+  "name": "choosenourish",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tylerMRoderick/fernfolio-11ty-template"
-  },
   "author": {
-    "name": "Tyler M. Roderick",
-    "email": "troderick@protonmail.com",
-    "url": "https://www.tylerroderick.com/"
+    "name": "Jarryd Eastwood",
+    "email": "u3092157@uni.canberra.edu.au",
+    "url": "https://www.juxforyou.com/"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tylerMRoderick/fernfolio-11ty-template/issues"
-  },
-  "homepage": "https://github.com/tylerMRoderick/fernfolio-11ty-template",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-navigation": "^0.3.5",
@@ -33,6 +22,7 @@
     "clean-css": "^4.2.1",
     "eleventy": "^1.0.6",
     "html-minifier": "^4.0.0",
+    "lunr": "^2.3.9",
     "npm": "^8.9.0",
     "uglify": "^0.1.5",
     "uglify-es": "^3.3.9",
