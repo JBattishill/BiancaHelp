@@ -5,7 +5,7 @@ date: 2022-05-18T01:03:21.558Z
 permalink: /work/index.html
 eleventyNavigation:
   order: 3
-  key: Stories
+  key: Choice
 ---
 # The Peculiar Knife
 

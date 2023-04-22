@@ -6,16 +6,10 @@
         src="/static/img/logo.png"
         alt="Choose Nourish Logo"
         loading="lazy">
-    </a>
-    <a class="site-header__link" href="{{ '/' | url }}">
-     <img
-       class="site-header__minilogo"
-       src="/static/img/logo.png"
-       alt="Choose Nourish Logo"
-       loading="lazy">
-    </a>
+    </a>    
   </span>
-  <nav class="site-header__nav">
+
+  {# <nav class="site-header__nav">
     {% set navPages = collections.all | eleventyNavigation %}
     <ul class="site-header__items">
     {%- for entry in navPages %}
@@ -24,5 +18,39 @@
       </li>
     {%- endfor %}
     </ul>
-  </nav>
-</header>
+  </nav> #}
+
+<div class="site-header__nav">
+  {% set navPages = collections.all | eleventyNavigation %}
+  {# {{ navPages | dump | safe }} #}
+    <div class="menu">
+     {%- for entry in navPages %}
+      <button class="toggle"{% if entry.url == page.url %} data-current="current item"{% endif %}>
+      {{ entry.title }}
+      </button>
+      {# {% if entry.children %}
+       <ul class="list">
+       {%- for children in entry %}
+      <li class="list-item"{% if entry.children.url == page.url %} data-current="current item"{% endif %}>
+      {{ entry.children.title }}
+      </li>
+    </ul>
+      {%- endfor %}
+      {% endif %} #}
+      {%- endfor %}
+
+  {# <div class="menu">
+     {%- for entry in navPages %}
+      <button class="toggle"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}
+      </button>
+      {%- endfor %}
+       </ul> #}
+      
+    {# <ul class="site-header__items list">
+      <li class="list-item" style="--delay:0.2s">Front-end</li>
+      <li class="list-item" style="--delay:0.4s">Back-end</li>
+      <li class="list-item" style="--delay:0.6s">Full-Stack</li>
+      <li class="list-item" style="--delay:0.8s">@Website_Mentor</li>
+    </ul> #}
+  </div>
+{# </div> #}

@@ -46,12 +46,17 @@
 .hero__title {
   margin-top: 0;
   font-size: 2.8rem;
+  align-items: left;
+  text-align: left;
+  left:10vw;
+  position: absolute;
 }
 
 .content__container {
   overflow: hidden;
   height: 50px;
   display: block;
+  width: 100%;
 }
 
 .content__container__list {
@@ -61,6 +66,10 @@
   animation-iteration-count: 1;
   animation-delay: 1.5s;
   margin-top: -.5vh;
+  align-items: left;
+  text-align: left;
+  left:15vw;
+  position: relative;
 }
 
 .content__container__list__item {
@@ -135,59 +144,4 @@
   .hero__subtitle {
     margin-top: 3rem;
   }
-}
-
-/* Search Bar Test */
-
-.topnav .search-container {
-  float: right;
-}
-
-.topnav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-}
-
-.topnav .search-container button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-.topnav .search-container button:hover {
-  background: #ccc;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav .search-container {
-    float: none;
-  }
-  .topnav a, .topnav input[type=text], .topnav .search-container button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .topnav input[type=text] {
-    border: 1px solid #ccc;  
-  }
-}
-.btnSearch{
-  background-color: #EFA9B6;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }

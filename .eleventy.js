@@ -1,11 +1,34 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
-const Lunr = require("lunr");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const eleventyVue = require("@11ty/eleventy-plugin-vue");
 
 module.exports = function(eleventyConfig) {
+
+  // Eleventy Vue https://github.com/11ty/eleventy-plugin-vue/
+    eleventyConfig.addPlugin(eleventyVue, {
+
+    // Directory to store compiled Vue single file components
+    cacheDirectory: ".cache/vue/",
+
+    // Pass in a file or multiple .vue files to limit compilation
+    // If this is empty, the plugin will search for all *.vue files
+    input: [],
+
+    // Use postcss in the single file components
+    rollupPluginVueOptions: {},
+
+    // Passed to rollup.rollup
+    rollupOptions: {
+      // Declare your own external dependencies
+      external: [],
+
+      // Use your own Rollup plugins
+      plugins: [],
+    },
+  });
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -37,16 +60,6 @@ module.exports = function(eleventyConfig) {
       return coll;
     }, {});
   });
-
-  eleventyConfig.addCollection("recipes", function(collection) {
-    return collection.getFilteredByGlob("/recipes/*.md").sort((a,b) => {
-      if(a.data.title < b.data.title) return -1;
-      if(a.data.title > b.date.title) return 1;
-      return 0;
-    });
-  });
-  eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
-
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
@@ -85,6 +98,8 @@ module.exports = function(eleventyConfig) {
     }
     return content;
   });
+  
+
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("favicon.ico");
@@ -116,7 +131,6 @@ module.exports = function(eleventyConfig) {
     // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for URLs (it does not affect your file structure)
     pathPrefix: "/",
-
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
@@ -128,31 +142,3 @@ module.exports = function(eleventyConfig) {
     }
   };
 };
-
-// Extracting an exerpt of Recipes
-function extractExcerpt(article) {
-	if (!article.hasOwnProperty('templateContent')) {
-	  console.warn('Failed to extract excerpt: Document has no property "templateContent".');
-	  return null;
-	}
-   
-	let excerpt = null;
-	const content = article.templateContent;
-
-	// The start and end separators to try and match to extract the excerpt
-	const separatorsList = [
-	  { start: '<!-- Excerpt Start -->', end: '<!-- Excerpt End -->' },
-	  { start: '<p>', end: '</p>' }
-	];
-   
-	separatorsList.some(separators => {
-	  const startPosition = content.indexOf(separators.start);
-	  const endPosition = content.indexOf(separators.end);
-   
-	  if (startPosition !== -1 && endPosition !== -1) {
-		excerpt = content.substring(startPosition + separators.start.length, endPosition).trim();
-		return true; // Exit out of array loop on first match
-	  }
-	});
-	return excerpt;
-  }

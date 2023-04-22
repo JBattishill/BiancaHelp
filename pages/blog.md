@@ -6,6 +6,6 @@ metaDescription: Collection of recipes
 date: 2017-01-01
 permalink: /blog/index.html
 eleventyNavigation:
-  key: Recipes
+  key: Medical
   order: 2
 ---

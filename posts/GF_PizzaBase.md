@@ -3,10 +3,14 @@ title: Pizza Pizza Pizza
 date: 2022-05-10
 author: Jarryd Eastwood
 summary: A simple recipe for a great gluten free Pizza base!
+eleventyNavigation:
+  key: GF Pizza
+  parent: Dietary
+  order: 5
 tags:
   - Pizza
   - Italian
-  - newTag
+  - Gluten-Free
   - thisTag
   - anotherTag
 ---

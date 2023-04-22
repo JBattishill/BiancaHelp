@@ -7,7 +7,7 @@ metaDescription: Contact us page
 date: 2022-05-18T00:41:07.186Z
 permalink: /contact/index.html
 eleventyNavigation:
-  key: Contact
+  key: All Recipes
   order: 5
 ---
 If you want to:

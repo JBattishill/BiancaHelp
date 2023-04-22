@@ -5,7 +5,7 @@ metaDescription: This page is all about me
 date: 2022-05-18T00:37:57.329Z
 permalink: /about/index.html
 eleventyNavigation:
-  key: Test
+  key: Dietary
   order: 1
 ---
 #### Why teach us about beautiful food?
