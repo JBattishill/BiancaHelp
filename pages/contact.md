@@ -1,23 +1,16 @@
 ---
-section: contact
+section: submit
 layout: layouts/contact.njk
-title: Get in touch
+title: Share your Nourish
 subtitle: ""
-metaDescription: Contact us page
-date: 2022-05-18T00:41:07.186Z
-permalink: /contact/index.html
+metaDescription: Submit a recipe
+permalink: /submit/index.html
 eleventyNavigation:
   key: All Recipes
   order: 5
 ---
-If you want to:
+![Mother and daughter in the kitchen with freshly baked cookies](https://images.unsplash.com/photo-1627662057433-57fe8756a4f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80 "Mother and daughter in the kitchen with freshly baked cookies")
 
-* Ask me to find a way to make something healthier
-* Ask me to find a way to make something tastier
-* Ask me to find a way to make something simpler
-* Tell me what you think about how I am doing things*
-* Send me a set of knives to conveniently place in all of my photos...
+If you have a meal you want to share with the community, please submit it using the form below and we will create the post for it!
 
-![Hooded figure holding a knife over a piano](https://images.unsplash.com/photo-1509401238785-48c8e54d23f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80 "Hooded figure holding a knife over a piano")
-
-\* Sending these messages does not mean I will care
+Nourish Team
