@@ -24,6 +24,12 @@ h2{
   font-style: normal;
 }
 
+h4{
+  font-family: "omnes-pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 body{
   color: white;
 }

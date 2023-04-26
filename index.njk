@@ -19,22 +19,20 @@ section: home
         </span>
     </div>
     <div class="w-full sm:w-1/2">
-      <img class="sm:mb-16 w-auto mx-auto rounded" src="{% if home.image %}{{ home.image }}{% else %}https://source.unsplash.com/random/600x600{% endif %}"
+      <img class="sm:mb-40 w-auto mx-auto rounded" src="{% if home.image %}{{ home.image }}{% else %}https://source.unsplash.com/random/600x600{% endif %}"
       alt="{{ home.image_alt }}" loading="lazy">
     </div>
   </div>
 </div>
 
-  <hr>
-
 <div class="mt:0 flex flex-col justify-center h-full pb-6">
   <div class="self-center items-center flex flex-col sm:flex-row w-full md:w-5/6 xl:w-2/3 px-4 sm:px-0">
     <div class="w-full text-center sm:text-left sm:w-1/2 pt-8 sm:px-8">
-      <h2 class="text-gray-50 font-bold tracking-wide text-4xl">Showcase</h2>
+      <h2 class="text-gray-50 font-bold tracking-wide text-3xl">Our New Nourishes</h2>
       {% set projectlist = collections.project %}
       {% include "components/projectlist.njk" %}
 
-      <h2 class="mt-10 text-gray-50 font-bold tracking-wide text-4xl">Feed View</h2>
+      <h2 class="mt-10 text-gray-50 font-bold tracking-wide text-3xl">Feed View</h2>
       {% set postslist = collections.post %}
       {% set show_postslist_tags = false %}
       {% set limit = 3 %}
