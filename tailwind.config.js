@@ -983,6 +983,9 @@ module.exports = {
       },
     extend: {
       colors: {
+        grey:{
+          950: '#333'
+        },
         pink: {
           950: '#F7A1C9',
         },
