@@ -5,8 +5,9 @@
   <title>{{ renderData.title or title or metadata.title }}</title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or summary or metadata.description }}">
   <link rel="stylesheet" href="https://use.typekit.net/bad5fcl.css">
-  <script src="https://unpkg.com/lunr/lunr.js"></script>
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
   {% set css %}
     {% include "assets/css/normalize.css" %}
     {% include "assets/css/variables.css" %}
@@ -17,18 +18,13 @@
     {% include "assets/css/blog.css" %}
     {% include "assets/css/projects.css" %}
 
-    {% if page.url == '/' %}
-      {% include "assets/css/home-page.css" %}
-    {% endif %}
-
-    {% if page.url == '/contact/' %}
+    {% if page.url == '/submit/' %}
       {% include "assets/css/contact.css" %}
     {% endif %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}
     {% include "assets/js/inline.js" %}
-    {% include "assets/js/functions.js" %}
 
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
