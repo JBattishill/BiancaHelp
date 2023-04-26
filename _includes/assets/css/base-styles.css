@@ -126,8 +126,8 @@ li{
 .content__container__list {
     list-style: none;
     animation-name: change;
-    animation-duration: 30s;
-    animation-iteration-count: infinite ease-out;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
     animation-delay: 1.5s;
 }
 
