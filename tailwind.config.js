@@ -982,6 +982,10 @@ module.exports = {
       display: ['bryant-web, sans-serif'],
       },
     extend: {
+      backgroundImage: {
+        'space': "url('/static/img/spacebg.jpg')",
+      },
+          
       colors: {
         grey:{
           950: '#333'
