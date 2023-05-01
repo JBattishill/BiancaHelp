@@ -1,8 +1,8 @@
 <header class="animatedbg">
 <nav class="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-5 pink-950 sm:bg-transparent">
   <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap items-center">
-  <a href="/" class="no-underline"><img  src="/static/img/Nourish-Logomark.png" alt="Choose Nourish Logo" loading="lazy" class="h-24 py-1"></a>
-  <h1 class="text-gray-50 align-left font-bold tracking-wide text-lg md:text-2xl lg:text-4xl">Choose Nourish</h1>
+  <a href="/" class="no-underline mr-8 xl:mr-0"><img  src="/static/img/Nourish-Logomark.png" alt="Choose Nourish Logo" loading="lazy" class="h-24 py-1"></a>
+  <h1 class="text-gray-50 align-left  font-bold text-4xl tracking-wide hidden xl:flex ">Choose Nourish</h1>
   </div>
         <div class="mobile-nav">
           <button class="mobile-btn" onclick="toggleMenu(1)">Menu</button>
@@ -11,20 +11,18 @@
           <li class="close-item">
             <button class="mobile-btn" onclick="toggleMenu(0)">Close &times;</button>
           </li>
- <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap items-center">
-          <li class="nav-item">
+ <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap items-center ">
+          <li class="nav-item pr-4">
             <a href="/recipes" class="nav-link">Recipes 
-            <i class="fa fa-caret-down"></i></a>
+            <i class="fa fa-angle-down"></i></a>
 
               <ul class="dp-menu level-1">
                 <li class="dp-item">
                   <a href="/recipes" class="dp-link">New 
-                  <i class="fa fa-caret-right"></i>
                   </a>
                 </li>
                 <li class="dp-item">
                   <a href="/tags/entertaining" class="dp-link">Entertaining
-                    <i class="fa fa-caret-right"></i>
                   </a>
                 <li class="dp-item">
                   <a href="/cuisines" class="dp-link">Cuisines</a>
@@ -32,13 +30,13 @@
               </ul>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item border-r-2 px-4 border-grey-50 ">
             <a href="/tags/restrictions/" class="nav-link">Restrictions 
-            <i class="fa fa-caret-down"></i></a>
+            <i class="fa fa-angle-down"></i></a>
               <ul class="dp-menu level-1">
                 <li class="dp-item">
                   <a href="/tags/Medical/" class="dp-link">Medical 
-                  <i class="fa fa-caret-right"></i>
+                  <i class="fa fa-angle-right"></i>
                   </a>
                     <ul class="dp-menu level-2">
                       <li class="dp-item">
@@ -58,10 +56,9 @@
                       </li>
                     </ul>
                 </li>
-
                 <li class="dp-item">
                   <a href="/tags/Allergies%20and%20Intolerances/" class="dp-link">Allergies & Intolerances 
-                    <i class="fa fa-caret-right"></i>
+                    <i class="fa fa-angle-right"></i>
                   </a>
                   <ul class="dp-menu level-2">
                     <li class="dp-item">
@@ -81,7 +78,7 @@
 
                 <li class="dp-item">
                   <a href="/tags/PersonalChoice/" class="dp-link">Personal Choice 
-                  <i class="fa fa-caret-right"></i>
+                  <i class="fa fa-angle-right"></i>
                   </a>
                     <ul class="dp-menu level-2">
                       <li class="dp-item">
@@ -101,7 +98,7 @@
 
                 <li class="dp-item">
                   <a href="/tags/Nutritional/" class="dp-link">Nutritional
-                    <i class="fa fa-caret-right"></i>
+                    <i class="fa fa-angle-right"></i>
                   </a>
                   <ul class="dp-menu level-2">
                     <li class="dp-item">
@@ -133,16 +130,16 @@
 
               </ul>
             </li>
-          <li class="nav-item">
-            <a href="/tags/Dinner/" class="nav-link">Dinner</a>
+          <li class="nav-item px-4">
+            <a href="/tags/Mains/" class="nav-link">Mains</a>
           </li>
-          <li class="nav-item">
-            <a href="/tags/Easy%20and%20Breezy/" class="nav-link">Easy & Breezy</a>
+          <li class="nav-item px-4">
+            <a href="/tags/Sides/" class="nav-link">Sides</a>
           </li>
-          <li class="nav-item">
-            <a href="/tags/Baking/" class="nav-link">Baking</a>
+          <li class="nav-item border-r-2 px-4 border-grey-50 ">
+            <a href="/tags/Snacks/" class="nav-link">Snacks</a>
           </li>
-          <li class="nav-item pr-8">
+          <li class="nav-item px-4">
             <a href="/submit" class="nav-link">Submit a meal</a>
           </li>
         </ul>

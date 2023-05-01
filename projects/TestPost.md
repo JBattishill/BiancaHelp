@@ -30,9 +30,9 @@ tags:
   - Low GI
   - Low Iodine
   - Low Sodium
-  - Dinner
-  - Eazy and Breezy
-  - Baking
+  - Mains
+  - Sides
+  - Snacks
 
 image: https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80
 ---
