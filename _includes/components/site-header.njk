@@ -1,189 +1,123 @@
- {# <h1 class="text-gray-50 align-left  font-bold text-4xl tracking-wide hidden xl:flex ">Choose Nourish</h1>
-    </div>
-      <div class="mobile-nav">
-        <button class="mobile-btn" onclick="toggleMenu">Menu</button>
-      </div>
-        <ul class="nav" id="main-nav">
-          <li class="close-item">
-            <button class="mobile-btn" onclick="toggleMenu">Close &times;</button>
-          </li>
+<header id="top" class="w-full flex flex-col fixed sm:relative bg-neutral-700 pin-t pin-r pin-l">
 
-          <li class="nav-item pr-4">
-            <a href="/recipes" class="nav-link">Recipes 
-            <i class="fa fa-angle-down"></i></a>
-
-              <ul class="dp-menu level-1">
-                <li class="dp-item">
-                  <a href="/recipes" class="dp-link">New 
-                  </a>
-                </li>
-                <li class="dp-item">
-                  <a href="/tags/entertaining" class="dp-link">Entertaining
-                  </a>
-                <li class="dp-item">
-                  <a href="/cuisines" class="dp-link">Cuisines</a>
-                </li>
-              </ul>
-          </li>
-
-          <li class="nav-item border-r-2 px-4 border-grey-50">
-              <a href="/tags/restrictions/" class="nav-link">Restrictions 
-              <i class="fa fa-angle-down"></i></a>
-                <ul class="dp-menu level-1">
-                  <li class="dp-item">
-                      <a href="/tags/Medical/" class="dp-link">Medical 
-                      <i class="fa fa-angle-right"></i> </a>
-                      <ul class="dp-menu level-2">
-                        <li class="dp-item">
-                          <a href="/tags/Coeliac/" class="dp-link">Coeliac</a>
-                        </li>
-                        <li class="dp-item">
-                          <a href="/tags/Crohns%20Disease/" class="dp-link">Crohn's Disease</a>
-                        </li>
-                        <li class="dp-item">
-                          <a href="/tags/GERD/" class="dp-link">GERD</a>
-                        </li>
-                        <li class="dp-item">
-                          <a href="/tags/IBS/" class="dp-link">IBS</a>
-                        </li>
-                        <li class="dp-item">
-                          <a href="/tags/Pregnancy/" class="dp-link">Pregnancy</a>
-                        </li>
-                      </ul>
-                  </li>
-                  <li class="dp-item">
-                    <a href="/tags/Allergies%20and%20Intolerances/" class="dp-link">Allergies & Intolerances 
-                      <i class="fa fa-angle-right"></i></a>
-                    <ul class="dp-menu level-2">
-                      <li class="dp-item">
-                        <a href="/tags/Dairy-Free/" class="dp-link">Dairy-Free</a>
-                      </li>
-                      <li class="dp-item">
-                        <a href="/tags/Gluten-Free/" class="dp-link">Gluten-Free</a>
-                      </li>
-                      <li class="dp-item">
-                        <a href="/tags/Peanut%20Allergy/" class="dp-link">Peanut Allergy</a>
-                      </li>
-                      <li class="dp-item">
-                        <a href="/tags/Tree%20Nut%20Allergy/" class="dp-link">Tree Nut Allergy</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="dp-item">
-                    <a href="/tags/PersonalChoice/" class="dp-link">Personal Choice 
-                    <i class="fa fa-angle-right"></i></a>
-                      <ul class="dp-menu level-2">
-                        <li class="dp-item">
-                          <a href="/tags/Ketogenic/" class="dp-link">Ketogenic</a>
-                        </li>
-                        <li class="dp-item">
-                          <a href="/tags/Paleo/" class="dp-link">Paleo</a>
-                        </li>
-                        <li class="dp-item">
-                          <a href="/tags/Vegan/" class="dp-link">Vegan</a>
-                        </li>
-                        <li class="dp-item">
-                          <a href="/tags/Vegetarian/" class="dp-link">Vegetarian</a>
-                        </li>
-                      </ul>
-                  </li>
-                  <li class="dp-item">
-                    <a href="/tags/Nutritional/" class="dp-link">Nutritional
-                      <i class="fa fa-angle-right"></i></a>
-                    <ul class="dp-menu level-2">
-                      <li class="dp-item">
-                        <a href="/tags/High%20Fibre//" class="dp-link">High Fibre</a>
-                      </li>
-                      <li class="dp-item">
-                        <a href="/tags/High%20Protein/" class="dp-link">High Protein</a>
-                      </li>
-                      <li class="dp-item">
-                        <a href="/tags/Low%20Calorie/" class="dp-link">Low Calorie</a>
-                      </li>
-                      <li class="dp-item">
-                        <a href="/tags/Low%20Cholesterol//" class="dp-link">Low Cholesterol</a>
-                      </li>
-                      <li class="dp-item">
-                        <a href="/tags/Low%20FODMAP//" class="dp-link">Low FODMAP</a>
-                      </li>
-                      <li class="dp-item">
-                        <a href="/tags/Low%20GI//" class="dp-link">Low GI</a>
-                      </li>
-                      <li class="dp-item">
-                        <a href="/tags/Low%20Iodine//" class="dp-link">Low Iodine</a>
-                      </li>
-                      <li class="dp-item">
-                        <a href="/tags/Low%20Sodium/" class="dp-link">Low Sodium</a>
-                      </li>
-                    </ul>
-                  </li>
-            </ul>
-          </li>
-
-  </nav>
-  </header> #}
-
-<header id="top" class="w-full flex flex-col fixed sm:relative bg-neutral-700 text-white pin-t pin-r pin-l">
-  <nav id="site-menu" class="flex flex-col sm:flex-row w-full items-center justify-between px-4 sm:px-6 py-1 bg-neutral-700 text-white shadow sm:shadow-none">
-    <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
-      <a href="/" class="no-underline mr-8 xl:mr-0"><img  src="/static/img/Nourish-Logomark.png" alt="Choose Nourish Logo" loading="lazy" class="h-16 pr-2 py-2"></a>
-      <h1 class="text-white align-left  font-bold text-4xl tracking-wide hidden xl:flex ">Choose Nourish</h1>
-      <button id="menuBtn" class="hamburger block sm:hidden focus:outline-none" type="button" onclick="navToggle();">
-        <span class="hamburger__top-bun"></span><span class="hamburger__bottom-bun"></span>
-      </button>
-    </div>
-
-      <div class="group self-start w-full sm:w-auto">
-        <button class="w-full sm:w-[12%] px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
-          <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/recipes">Recipes</a>
-          <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+  {# Nav #}
+  <nav id="site-menu" class="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-neutral-700 shadow sm:shadow-none border-b-4 border-purple-500">
+    
+      {# Logo and Hamburger Container #}
+      <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
+        {# Nav -> Logo #}
+        <a href="/" class="no-underline mr-8 xl:mr-0"><img  src="/static/img/Nourish-Logomark.png" alt="Choose Nourish Logo" loading="lazy" class="h-12 pr-2 py-2"></a>
+        <a href="/" class="text-white align-left font-bold text-4xl tracking-wide hidden xl:flex ">Choose Nourish</a>
+        {# Nav -> Hamburger Menu #}
+        <button id="menuBtn" class="hamburger block sm:hidden focus:outline-none" type="button" onclick="navToggle();">
+          <span class="hamburger__top-bun"></span><span class="hamburger__bottom-bun"></span>
         </button>
-        <ul class="bg-neutral-700 w-2/5 sm:w-auto text-white border border-top-0 rounded transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
-          <a href="/recipes"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">New</li></a>
-          <a href="/tags/entertaining/"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Entertaining</li></a>
-          <a href="/cuisines"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Cuisines</li></a>
-        </ul>
       </div>
-      
-      <div class="group self-start w-full sm:w-auto">
-        <button class="w-full sm:w-[12%] sm:border-r-2 sm:border-white px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
-          <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/restrictions">Restrictions</a>
-          <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+
+      {# Nav Menu Container #}
+      <div id="menu" class="w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0 hidden">
+
+        {# Nav -> Recipes #}
+        <div class="group self-start w-full sm:w-auto">
+          <button class="w-full sm:w-auto px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+            <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/recipes">Recipes</a>
+            <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+          </button>
+          {# Nav -> Recipes -> SubNav #}
+          <ul class="bg-neutral-700 text-white border rounded transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
+            <a href="/recipes"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">New</li></a>
+            <a href="/tags/entertaining/"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Entertaining</li></a>
+            <a href="/cuisines"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Cuisines</li></a>
+          </ul>
+        </div>
+
+        {# Nav -> Restrictions #}
+        <div class="group self-start w-full sm:w-auto">
+          <button class="w-full sm:w-auto sm:border-r-2 sm:border-white px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+            <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/restrictions">Restrictions</a>
+            <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+          </button>
+
+          {# Nav -> Restrictions -> SubNav #}
+          <ul class="bg-neutral-700 sm:w-auto text-white border rounded transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
+            {# Nav -> Restrictions -> SubNav -> Medical #}
+            <li class="w-full self-start">
+              <button class="w-full sm:w-auto sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline" href="/tags/Medical">Medical</a>
+                <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+              </button>
+              <ul class="bg-neutral-700 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
+                <a href="/tags/Coeliac/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Coeliac</li></a>
+                <a href="/tags/Crohns%20Disease/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Crohn's Disease</li></a>
+                <a href="/tags/GERD/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">GERD</li></a>
+                <a href="/tags/IBS/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">IBS</li></a>
+                <a href="/tags/Pregnancy/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Pregnancy</li></a>
+              </ul> 
+            </li>
+            {# Nav -> Restrictions -> SubNav -> Allergies and Intolerances #}
+            <li class="w-full self-start">
+              <button class="w-full sm:w-auto sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+                <a class="navmenu pr-4 tracking-wider hover:text-white text-lg w-full no-underline hover:underline" href="/tags/Allergies%20and%20Intolerances">Allergies & Intolerances</a>
+                <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+              </button>
+              <ul class="bg-neutral-700 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
+                <a href="/tags/Dairy-Free/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Dairy-Free</li></a>
+                <a href="/tags/Gluten-Free/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Gluten-Free</li></a>
+                <a href="/tags/Peanut%20Allergy/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Peanut Allergy</li></a>
+                <a href="/tags/Tree%20Nut%20Allergy/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Tree Nut Allergy</li></a>
+              </ul> 
+            </li>
+            {# Nav -> Restrictions -> SubNav -> Personal Choice #}
+            <li class="w-full self-start">
+              <button class="w-full sm:w-auto sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline" href="/tags/Personal%20Choice">Personal Choice</a>
+                <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+              </button>
+              <ul class="bg-neutral-700 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
+                <a href="/tags/Ketogenic/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Ketogenic</li></a>
+                <a href="/tags/Paleo/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Paleo</li></a>
+                <a href="/tags/Vegan/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Vegan</li></a>
+                <a href="/tags/Vegetarian/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Vegetarian</li></a>
+              </ul> 
+            </li>
+            {# Nav -> Restrictions -> SubNav -> Nutritional #}
+            <li class="w-full self-start">
+              <button class="w-full sm:w-auto sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline" href="/tags/Nutritional">Nutritional</a>
+                <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+              </button>
+              <ul class="bg-neutral-700 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
+                <a href="/tags/High%20Fibre/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">High Fibre</li></a>
+                <a href="/tags/High%20Protein/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">High Protein</li></a>
+                <a href="/tags/Low%20Calorie/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Low Calorie</li></a>
+                <a href="/tags/Low%20Cholesterol/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Low Cholesterol</li></a>
+                <a href="/tags/Low%20FODMAP/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Low FODMAP</li></a>
+                <a href="/tags/Low%20GI/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Low GI</li></a>
+                <a href="/tags/Low%20Iodine/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Low Iodine</li></a>
+                <a href="/tags/Low%20Sodium/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Low Sodium</li></a>
+              </ul> 
+            </li>
+          </ul>
+        </div>
+
+        {# Nav -> Mains #}
+        <button class="w-full sm:w-auto px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+        <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/tags/Mains">Mains</a>
+        </button>
+        {# Nav -> Sides #}
+        <button class="w-full sm:w-auto px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+        <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/tags/Sides">Sides</a>
+        </button> 
+        {# Nav -> Snacks #}
+        <button class="w-full sm:w-auto sm:border-r-2 sm:border-white px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+        <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/tags/Snacks">Snacks</a>
         </button>
 
-        <ul class="bg-neutral-700 w-2/5 sm:w-auto text-white border border-top-0 rounded transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
-          <li class="w-full self-start">
-            <button class="w-full sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
-              <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline" href="/tags/Medical">Medical</a>
-              <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
-            </button>
-            <ul class="bg-neutral-700 w-2/5 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
-              <a href="/tags/Coeliac/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Coeliac</li></a>
-              <a href="/tags/Crohns%20Disease/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Crohn's Disease</li></a>
-              <a href="/tags/GERD/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">GERD</li></a>
-              <a href="/tags/IBS/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">IBS</li></a>
-              <a href="/tags/Pregnancy/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Pregnancy</li></a>
-              {# <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
-                  <button class="w-full sm:border-r-2 sm:border-white px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none mr-2">
-                    <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/restrictions">Submenu 2</a>
-                    <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
-                  </button>
-                  <ul class="bg-neutral-700 text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
-                    <a href="/recipes"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">SubSub1</li></a>
-                    <a href="/recipes"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">SubSub2</li></a>
-                  </ul> 
-                </li>  #}
-            </ul>
-          </li>
-        </ul>
+        {# Nav -> Submit a Meal #}
+        <button class="w-full sm:w-auto px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+        <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/submit">Submit a meal</a>
+        </button>
       </div>
-
-      <a class="navmenu px-4 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-[9%] sm:px-2 py-2 sm:py-1 sm:pt-2" href="/tags/mains">Mains</a>
-      <a class="navmenu px-4 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-[9%] sm:px-2 py-2 sm:py-1 sm:pt-2" href="/tags/sides">Sides</a>
-      <a class="navmenu sm:border-r-2 px-4 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full sm:w-[9%] no-underline  sm:px-4 py-2 sm:py-1 sm:pt-2" href="/tags/Snacks">Snacks</a>
-      <a class="navmenu px-4 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-[9%] sm:px-2 py-2 sm:py-1 sm:pt-2" href="/submit" >Submit a meal</a>
-      
-    </div>
   </nav>
 </header>
     

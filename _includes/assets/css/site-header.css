@@ -59,13 +59,13 @@ content: '';
 position: absolute;
 width: 24px;
 height: 2px;
-background: rgb(126 34 206);
+background: white;
 transform: rotate(0);
 transition: all 0.5s;
 }
 
 .hamburger:hover [class*="-bun"] {
-  background: rgb(126 34 206);
+  background: white;
 }
 
 .hamburger__top-bun {
