@@ -1,16 +1,19 @@
-<div class="bg-gradient-to-r from-purple-300 to-blue-200">
-    <div class="w-9/12 m-auto py-16 min-h-screen flex items-center justify-center">
-        <div class="bg-white shadow overflow-hidden sm:rounded-lg pb-8">
-            <div class="border-t border-gray-200 text-center pt-8">
-                <h1 class="text-9xl font-bold text-purple-400">404</h1>
-                <h1 class="text-6xl font-medium py-8">oops! Page not found</h1>
-                <p class="text-2xl pb-8 px-12 font-medium">Oops! The page you are looking for does not exist. It might have been moved or deleted.</p>
-                <button class="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-6 py-3 rounded-md mr-6">
-                    Home
-                </button>
-                <button class="bg-gradient-to-r from-red-400 to-red-500 hover:from-red-500 hover:to-red-500 text-white font-semibold px-6 py-3 rounded-md">
-                    Contact Us
-                </button>
+---
+layout: layouts/base.njk
+section: 404
+---
+<div class="-mt-36">
+    <div class="mx-auto p-64 min-h-screen flex items-center justify-center">
+        <div class="bg-neutral-700 px-24 shadow-lg overflow-hidden sm:rounded-lg pb-8 border-y-4 border-green-400">
+            <div class="border-gray-200 text-center pt-8">
+                <h1 class="text-9xl font-bold text-green-400">404</h1>
+                <h1 class="text-6xl font-medium pt-4 pb-2">It looks like you can't Choose this page right now!</h1>
+                <p class="pb-4"> Sorry, not sorry for the pun... </p>
+                <p class="text-2xl pb-8 px-12 font-medium">We are still adding content, you can check back later</p>        
+                <p class="text-lg pb-8 px-12 font-medium">Know recipe that meets the criteria you were looking for? Share it with the Nourish Community</p>          
+                <a href="/submit"><button class="bg-green-400 text-dark font-semibold px-6 py-3 rounded-md">
+                    Submit a meal
+                </button></a>
             </div>
         </div>
     </div>

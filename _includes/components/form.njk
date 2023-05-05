@@ -1,50 +1,8 @@
-{# <div class="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-5 pink-950 sm:bg-transparent">
-  <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap items-center">
-    <h1 class="text-gray-50 text-lg md:text-2xl lg:text-4xl">Please complete the form below to share your favourite meal</h1>
-  </div>    
-
- <form class="" name="submitMeal" method="POST" data-netlify="true">
-
-  <label for="mealName">Recipe Name</label>
-  <textarea class="w-3/4" name="mealName" id="mealName" 
-  placeholder="Enter the name of your meal"
-  rows="1" required></textarea>
-
-  <label for="details">Details</label>
-  <textarea name="details" id="details" 
-  placeholder="The details of your meal, e.g. Makes: 12, Calories: 190 per Cookie, Macros:..." 
-  rows="3" required></textarea>
-
-  <label for="ingredients">Ingredients</label>
-  <textarea name="ingredients" id="ingredients" 
-  placeholder="The ingredients of your meal, e.g. 1 Cup of GF Plain Flour, 1 Cup of Sugar, 1/2 Cup of Milk..." 
-  rows="6" required></textarea>
-  
-  <label for="method">Method</label>
-  <textarea name="method" id="method" 
-  placeholder="The method of preparing your meal, e.g. Take the dry ingredients and mix together in a bowl..." 
-  rows="6" required></textarea>
-  
-  <label for="tags">Tags</label>
-  <textarea name="tags" id="tags"
-  placeholder="The tags of your meal, e.g. Gluten-Free, Low Iodine, Dessert..."
-  rows="6" required> </textarea>
-
-  <label for="imgUrl">Image URL</label>
-  <textarea name="imgUrl" id="imgUrl" 
-  placeholder="The url to an online image of your meal, e.g. https://i.imgur.com/pR6fN19.jpeg"
-  rows="1"> </textarea>
-  
-  <button class="button" type="submit" 
-  name="submit">Submit Recipe</button> #}
-
-  {# </form><!-- // End form --> #}
-
 <section class="gradient-form h-full bg-neutral-600">
-  <div class="container h-full p-10">
+  <div class="container h-full p-6">
     <div class="g-6 flex h-full flex-wrap items-center justify-center text-neutral-50">
       <div class="w-full">
-        <div class="block rounded-lg bg-neutral-800 text-neutral-50 shadow-lg">
+        <div class="block rounded-lg border-y-4 border-green-400 bg-neutral-800 text-neutral-50 shadow-lg">
           <div class="g-0 lg:flex lg:flex-wrap">
             <!-- Left column container-->
             <div class="px-4 md:px-0 lg:w-6/12">
@@ -55,9 +13,12 @@
                     class="mt-4"
                     src="/static/img/logo.png"
                     alt="logo" />
-                  <h4 class="mb-12 mt-1 pb-1 text-lg font-light">
+                  <h4 class="mb-6 mt-1 pb-1 text-lg font-light">
                   Please complete the form below to share your favourite meal with the Nourish Community
                   </h4>
+                 <h4 class="text-green-400 underline underline-offset-8 tracking-wider mb-6 pb-1 text-2xl font-normal">
+                  All form fields are required
+                </h4>
                 </div>
 
                 <form class="" name="submitMeal" method="POST" data-netlify="true">
@@ -149,14 +110,10 @@
 
                   <!--Submit button-->
                   <div class="mb-12 pb-1 pt-1 text-center">
-                    <button
-                    data-te-ripple-init
-                    data-te-ripple-color="light"
-                    class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal border-white border-2 text-white shadow-[0_4px_9px_-4px_#3b71ca] 
-                    transition duration-150 ease-in-out hover:bg-white hover:text-purple-900 hover:border-purple-700 hover:underline hover:underline-offset-2 hover:border-2 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
-                    type="submit" name="submit">
-                    Submit
-                    </button>
+                  <a><button class="bg-green-400 text-neutral-600 font-semibold px-6 py-3 rounded-md"
+                      type="submit" name="submit">
+                      Submit a meal
+                    </button></a>
                   </div>
                 </form>
               </div>
