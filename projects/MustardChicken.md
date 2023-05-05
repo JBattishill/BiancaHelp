@@ -1,7 +1,7 @@
 ---
 title: Mustard Chicken
 
-summary: A classic protein filled meal good for any time of day.
+summary: A tangy treat that will have the whole family running to the dinner table.
 
 contributor: Nourish Team
 

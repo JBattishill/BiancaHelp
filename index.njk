@@ -5,8 +5,8 @@ section: home
 <div class="mt:0 flex flex-col justify-center h-full pb-6">
   <div class="self-center items-center flex flex-col sm:flex-row w-full md:w-5/6 xl:w-2/3 px-4 sm:px-0">
     <div class="w-full text-center sm:text-left sm:w-1/2 pt-8 sm:px-8">
-      <h1 class="text-gray-50 font-bold tracking-wide text-7xl">Choose</h1>
-        <span class="content__container block font-tight font-display -mt-1 text-7xl">
+      <h1 class="text-gray-50 font-bold tracking-wide text-4xl lg:text-7xl">Choose</h1>
+        <span class="content__container block font-tight text-4xl font-display -mt-1 lg:text-7xl">
           <ul class="content__container__list">
             <li class="content__container__list__item xl:pl-3">Nourish</li>
             <li class="content__container__list__item xl:pl-3">Gluten-Free</li>
@@ -18,7 +18,7 @@ section: home
           </ul>
         </span>
     </div>
-    <div class="w-full sm:w-1/2">
+    <div class="w-full sm:w-1/2 justify-center py-6">
       <img class="sm:mb-40 w-auto rounded" src="{% if home.image %}{{ home.image }}{% else %}https://source.unsplash.com/random/600x600{% endif %}"
       alt="{{ home.image_alt }}" loading="lazy">
     </div>
