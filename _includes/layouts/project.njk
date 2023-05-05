@@ -2,15 +2,22 @@
 layout: layouts/base.njk
 section: project
 ---
-<div class="page-container">
-  <h1>
-    {% if emoji %}
-      <span class="project-card__emoji">{{ emoji }}</span>
-    {% endif %}
-    {{title}}</h1>
-  <hr>
-  {{ layoutContent | safe }}
-  <nav>
-    <a href="{{ '/projects/' | url }}">← View All Projects</a>
+<div class="container justify-center flex flex-col w-2/3">
+  <div class="">
+    <img
+      class="h-96 w-auto bg-neutral-700 rounded border p-6 shadow-lg"
+      src="{% if image %}{{ image }}{% else %}https://source.unsplash.com/random/600x600{% endif %}"
+      loading="lazy">
+  </div>
+  <div class="flex flex-col w-1/2">
+    <h1 class="recipe-title text-center font-bold tracking-wide text-4xl mb-2">{{ title | safe}} </h1>
+     <h4 class="font-bold text-center tracking-wide text-2xl mb-4"> Contributed by: <span class="text-lg font-normal"> {{ contributer | safe}} </span> </h4>
+
+  <div class="recipeContent">
+    {{layoutContent | safe}}
+  </div>
+
+  <nav class="my-6">
+    <a href="{{ '/recipes/' | url }}">← View All Recipes</a>
   </nav>
 </div>

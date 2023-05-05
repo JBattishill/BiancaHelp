@@ -1,7 +1,7 @@
 :root {
   /* Brand Colors */
   --color-primary: #01295F;
-  --color-secondary: #dc9aa6;
+  --color-secondary: #7E22CE;
 
   /* Background Colors */
   --color-bg: #596275;
@@ -11,7 +11,7 @@
   /* Text and Border Colors */
   --color-text: #ffffff;
   --color-text-alt: #ffffff;
-  --color-border: rgba(255, 255, 255, 0.06);
+  --color-border: rgba(255, 255, 255, 0.519);
 
   /* Status Colors */
   --color-danger: #c44569;
@@ -21,7 +21,7 @@
   --font-family-heading: "omnes-pro", sans-serif; 
  
   /* Sizes */
-  --site-width: 80vw;
+  --site-width: 90vw;
 
   /* Other */
   --border-radius: 12px;

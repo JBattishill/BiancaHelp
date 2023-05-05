@@ -18,6 +18,38 @@ html {
   font-style: normal; 
 }
 
+.recipe-title{
+  font-family: "omnes-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+}
+
+.recipeContent{
+  font-family: "azo-sans-web", sans-serif;
+}
+
+.recipeContent h3{
+  font-family: "omnes-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.recipeContent p{
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.recipeContent ul{
+  font-family: "azo-sans-web", sans-serif;
+  margin-left: 2rem;
+  list-style-type: circle;
+
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 h1{
   font-family: "omnes-pro", sans-serif;
   font-weight: 700;
@@ -29,6 +61,8 @@ h2{
   font-weight: 700;
   font-style: normal;
 }
+
+
 
 h4{
   font-family: "omnes-pro", sans-serif;

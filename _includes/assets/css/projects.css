@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 40px;
-  margin: 40px 0;
+  margin: 40px auto;
   max-width: 1200px;
 }
 
@@ -22,6 +22,7 @@
   border-radius: 5px;
   margin: 0 auto;
   max-width: 70vw;
+  min-width: 350px;
 }
 
 .project-card_image {
@@ -36,15 +37,27 @@ max-height: 200px;
 }
 
 .project-card__tag {
-  background-color: var(--color-secondary);
-  color: var(--color-text-alt);
+  background-color: #7E22CE;
+  color: white;
 }
 
 .project-card__tag:hover {
-  color: var(--color-text-alt);
+  color: white;
+  text-decoration: underline;
   filter: brightness(90%);
 }
 
 .project-card__emoji {
   margin-right: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: white;
+  text-decoration: underline;
+  filter: brightness(80%);
 }
