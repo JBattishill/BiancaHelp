@@ -15,6 +15,7 @@ tags:
 - Low Cholesterol
 - Peanut Allergy
 - Mains
+- Sides
 
 image: https://images.unsplash.com/photo-1649825319037-f30ea5b611c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 
 

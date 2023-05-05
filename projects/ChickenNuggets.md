@@ -20,12 +20,19 @@ tags:
 image: https://images.unsplash.com/photo-1627662055487-551888db3aa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 
 ---
+***
+
+<br>
 
 ### Details :
 
 Serves - 6
 
 Calories - 350 per serve
+
+<br>
+
+***
 
 <br>
 
@@ -49,15 +56,19 @@ Calories - 350 per serve
 
 <br>
 
+***
+
+<br>
+
 ### Method:
 
 Preheat oven to 175c
 
-Line two baking sheets with aluminium foil and grease with canola oil
+Line two baking sheets with aluminium foil and grease with canola oil.
 
-Combine the rice flour, cumin, paprika, salt, and pepper
+Combine the rice flour, cumin, paprika, salt, and pepper.
 
-In a separate bowl, whisk the eggs until smooth
+In a separate bowl, whisk the eggs until smooth.
 
 Roll each chicken cube in flour mixture until covered, and then dip in egg mixture.
 

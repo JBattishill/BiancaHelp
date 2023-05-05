@@ -35,6 +35,13 @@ html {
   font-size: 1.5rem;
 }
 
+.recipeContent h4{
+  font-family: "azo-sans-web", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 2;
+}
 .recipeContent p{
   font-family: "azo-sans-web", sans-serif;
   font-weight: 300;
