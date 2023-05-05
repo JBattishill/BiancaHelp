@@ -1,14 +1,16 @@
 ---
 title: Spaghetti Bolognese
 summary: The tastiest Gluten Free Spaghetti Bolognese we have ever made!
-contributer: Nourish Team
+contributor: Nourish Team
 
 tags:
-  - Gluten Free
+  - Gluten-Free
   - Italian
 
-image: https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
+image: https://images.unsplash.com/photo-1591798454113-023d7379221f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 ---
+***
+<br>
 
 ### Details :
 Serves - 4
@@ -16,10 +18,18 @@ Calories - 490 per serve
 
 <br>
 
+***
+
+<br>
+
 ### Ingredients:
 * Beef Mince
 * GF Pasta
 * 500g Passata
+
+<br>
+
+***
 
 <br>
 
