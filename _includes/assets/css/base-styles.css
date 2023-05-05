@@ -36,9 +36,11 @@ html {
 }
 
 .recipeContent p{
-  font-weight: normal;
+  font-family: "azo-sans-web", sans-serif;
+  font-weight: 300;
   font-size: 1rem;
   line-height: 1.5;
+  margin: .5rem 0;
 }
 
 .recipeContent ul{

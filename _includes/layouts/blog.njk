@@ -4,11 +4,13 @@ section: blog
 permalink: /blog/index.html
 ---
 <div class="page-container">
-  <h1>{{title}}</h1>
-  {{ layoutContent | safe }}
-	<hr>
-
-  {% set postslist = collections.post %}
-  {% set show_postslist_tags = true %}
-  {% include "components/postslist.njk" %}
+  <div class="mt:0 flex flex-col justify-center h-full pb-6">
+    <div class="self-center items-center flex flex-col sm:flex-row w-full md:w-5/6 xl:w-2/3 px-4 sm:px-0">
+      <div class="w-full text-center sm:text-left sm:w-1/2 pt-8 sm:px-8">
+        <h2 class="text-gray-50 font-bold tracking-wide text-3xl">Our Newest Recipes</h2>
+        {% set projectlist = collections.project %}
+        {% include "components/projectlist.njk" %}
+      </div> 
+    </div> 
+  </div> 
 </div>

@@ -4,7 +4,7 @@
       <div class="project-card" {% if post.url == url %} data-current="current item"{% endif %}>
         <div class="hero__col">
          <a href="{{ post.url | url }}"><img
-            class="project-card_image shadow rounded"
+            class="max-h-48 mx-auto mb-2 w-auto shadow rounded"
             src="{% if post.data.image %}{{ post.data.image }}{% else %}https://source.unsplash.com/random/600x600{% endif %}"
             loading="lazy"></a>
         </div>
