@@ -4,7 +4,7 @@
   <nav id="site-menu" class="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-neutral-700 shadow sm:shadow-none border-b-4 border-purple-500">
     
       {# Logo and Hamburger Container #}
-      <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
+      <div class="w-full sm:w-auto    sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
         {# Nav -> Logo #}
         <a href="/" class="no-underline mr-8 xl:mr-0"><img  src="/static/img/Nourish-Logomark.png" alt="Choose Nourish Logo" loading="lazy" class="h-12 pr-2 py-2"></a>
         <a href="/" class="text-white align-left font-bold text-4xl tracking-wide hidden xl:flex ">Choose Nourish</a>
@@ -18,33 +18,109 @@
       <div id="menu" class="w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0 hidden">
 
         {# Nav -> Recipes #}
-        <div class="group self-start w-full sm:w-auto">
+        <div class="group    w-full sm:w-auto">
           <button class="w-full sm:w-auto px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
             <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/recipes">Recipes</a>
-            <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+            <span><svg class="group-hover:motion-safe:animate-bounce fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
           </button>
           {# Nav -> Recipes -> SubNav #}
           <ul class="bg-neutral-700 text-white border rounded transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
+            {# Nav -> Recipes -> SubNav -> New #}
             <a href="/recipes"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">New</li></a>
+            {# Nav -> Recipes -> SubNav -> Entertaining #}
             <a href="/tags/entertaining/"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Entertaining</li></a>
-            <a href="/cuisines"><li class="navmenu rounded-sm px-3 tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Cuisines</li></a>
+            {# Nav -> Recipes -> SubNav -> Cuisines A-H #}
+            <li class="w-full">
+              <button class="w-full sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline">Cuisines A-I </a>
+                <span><svg class="-rotate-90 fill-current h-4 w-4 transform transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+              </button>
+              <ul class="bg-neutral-700 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
+                {# Nav -> Recipes -> SubNav -> Cuisines -> American #}
+                <a href="/tags/American/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  American</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Asian #}
+                <a href="/tags/Asian/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Asian</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Brazilian #}
+                <a href="/tags/Brazilian/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Brazilian</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Chinese #}
+                <a href="/tags/Chinese/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Chinese</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> English #}
+                <a href="/tags/English/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  English</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> French #}
+                <a href="/tags/French/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  French</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> German #}
+                <a href="/tags/German/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  German</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Greek #}
+                <a href="/tags/Greek/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Greek</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Hungarian #}
+                <a href="/tags/Hungarian/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Hungarian</li></a>
+              </ul> 
+            </li>
+            {# Nav -> Recipes -> SubNav -> Cuisines H-Z #}
+            <li class="w-full">
+              <button class="w-full sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline">Cuisines H-Z</a>
+                <span><svg class="-rotate-90 fill-current h-4 w-4 transform transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+              </button>
+              <ul class="bg-neutral-700 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Indian #}
+                <a href="/tags/Indian/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Indian</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Italian #}
+                <a href="/tags/Italian/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Italian</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Japanese #}
+                <a href="/tags/Japanese/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Japanese</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Kid-Friendly #}
+                <a href="/tags/Kid-Friendly/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Kid-Friendly</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Mexican #}
+                <a href="/tags/Mexican/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Mexican</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Moroccan #}
+                <a href="/tags/Moroccan/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Moroccan</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Portuguese #}
+                <a href="/tags/Portuguese/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Portuguese</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Kid-Friendly #}
+                <a href="/tags/Soul%20Food/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Soul Food</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Spanish #}
+                <a href="/tags/Spanish/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Spanish</li></a>
+                {# Nav -> Recipes -> SubNav -> Cuisines -> Thai #}
+                <a href="/tags/Thai/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">
+                  Thai</li></a>
+              </ul> 
+            </li>
           </ul>
         </div>
 
         {# Nav -> Restrictions #}
-        <div class="group self-start w-full sm:w-auto">
+        <div class="group w-full sm:w-auto">
           <button class="w-full sm:w-auto sm:border-r-2 sm:border-white px-4 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
-            <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/restrictions">Restrictions</a>
-            <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+            <a class="navmenu sm:w-auto tracking-wider hover:text-white text-lg w-full no-underline hover:underline sm:pr-4 py-2 sm:py-1 sm:pt-2" href="/restrictions">Restrictions</a>
+            <span><svg class="group-hover:motion-safe:animate-bounce fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
           </button>
 
           {# Nav -> Restrictions -> SubNav #}
           <ul class="bg-neutral-700 sm:w-auto text-white border rounded transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
             {# Nav -> Restrictions -> SubNav -> Medical #}
-            <li class="w-full self-start">
-              <button class="w-full sm:w-auto sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
-                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline" href="/tags/Medical">Medical</a>
-                <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+            <li class="w-full">
+              <button class="w-full sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline">Medical</a>
+                <span><svg class="-rotate-90 fill-current h-4 w-4 transform transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
               </button>
               <ul class="bg-neutral-700 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
                 <a href="/tags/Coeliac/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Coeliac</li></a>
@@ -55,10 +131,10 @@
               </ul> 
             </li>
             {# Nav -> Restrictions -> SubNav -> Allergies and Intolerances #}
-            <li class="w-full self-start">
-              <button class="w-full sm:w-auto sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
-                <a class="navmenu pr-4 tracking-wider hover:text-white text-lg w-full no-underline hover:underline" href="/tags/Allergies%20and%20Intolerances">Allergies & Intolerances</a>
-                <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+            <li class="w-full">
+              <button class="w-full sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+                <a class="navmenu pr-4 tracking-wider hover:text-white text-lg w-full no-underline hover:underline">Allergies & Intolerances</a>
+                <span><svg class="-rotate-90 fill-current h-4 w-4 transform transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
               </button>
               <ul class="bg-neutral-700 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
                 <a href="/tags/Dairy-Free/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Dairy-Free</li></a>
@@ -68,10 +144,10 @@
               </ul> 
             </li>
             {# Nav -> Restrictions -> SubNav -> Personal Choice #}
-            <li class="w-full self-start">
-              <button class="w-full sm:w-auto sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
-                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline" href="/tags/Personal%20Choice">Personal Choice</a>
-                <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+            <li class="w-full">
+              <button class="w-full sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline">Personal Choice</a>
+                <span><svg class="-rotate-90 fill-current h-4 w-4 transform transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
               </button>
               <ul class="bg-neutral-700 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
                 <a href="/tags/Ketogenic/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">Ketogenic</li></a>
@@ -81,10 +157,10 @@
               </ul> 
             </li>
             {# Nav -> Restrictions -> SubNav -> Nutritional #}
-            <li class="w-full self-start">
-              <button class="w-full sm:w-auto sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
-                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline" href="/tags/Nutritional">Nutritional</a>
-                <span><svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
+            <li class="w-full">
+              <button class="w-full sm:border-white px-3 text-left flex items-center outline-none hover:bg-purple-700 sm:px-2 py-2 sm:py-1 sm:pt-2 focus:outline-none">
+                <a class="navmenu tracking-wider hover:text-white text-lg w-full no-underline hover:underline">Nutritional</a>
+                <span><svg class="-rotate-90 fill-current h-4 w-4 transform transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span>
               </button>
               <ul class="bg-neutral-700 sm:w-auto text-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32">
                 <a href="/tags/High%20Fibre/"><li class="navmenu px-3 rounded-sm tracking-wider hover:shadow hover:text-white hover:hover:bg-purple-700 hover:underline text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2">High Fibre</li></a>
